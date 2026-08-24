@@ -1,5 +1,9 @@
 # dict
 
+
+![Terminal demo of dict](docs/demo.gif)
+
+
 A small macOS command-line interface to the built-in Dictionary service.
 
 ## Requirements
