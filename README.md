@@ -13,12 +13,21 @@ A small macOS command-line interface to the built-in Dictionary service.
 curl -fsSL https://raw.githubusercontent.com/YOUR-GITHUB-USERNAME/macos-dict-cli/main/install.sh | sh
 ```
 
+
 The command installs `dict` to `~/.local/bin/dict`.
 
 Ensure `~/.local/bin` is on your `PATH`:
 
 ```sh
 export PATH="$HOME/.local/bin:$PATH"
+```
+or
+
+```
+git clone https://github.com/YOUR-GITHUB-USERNAME/macos-dict-cli.git
+cd macos-dict-cli
+cat install.sh
+./install.sh
 ```
 
 ## Usage
