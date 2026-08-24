@@ -1,10 +1,10 @@
-# dict
+# swift-dict
 
 
 ![Terminal demo of dict](docs/demo.gif)
 
 
-A small macOS command-line interface to the built-in Dictionary service.
+A tiny Swift CLI that pipes macOS's built-in Dictionary straight to your terminal.
 
 ## Requirements
 
