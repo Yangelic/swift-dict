@@ -14,7 +14,7 @@ A small macOS command-line interface to the built-in Dictionary service.
 ## Install
 
 ```sh
-curl -fsSL https://raw.githubusercontent.com/YOUR-GITHUB-USERNAME/macos-dict-cli/main/install.sh | sh
+curl -fsSL https://raw.githubusercontent.com/Yangelic/swift-dict/main/install.sh | sh
 ```
 
 
@@ -28,8 +28,8 @@ export PATH="$HOME/.local/bin:$PATH"
 or
 
 ```
-git clone https://github.com/YOUR-GITHUB-USERNAME/macos-dict-cli.git
-cd macos-dict-cli
+git clone https://github.com/Yangelic/swift-dict.git
+cd swift-dict
 cat install.sh
 ./install.sh
 ```
@@ -44,6 +44,10 @@ dict ipso facto
 ## Notes
 
 Results use the dictionaries enabled in **Dictionary → Settings** on macOS.
+
+`dict` is a common command name and may collide with other tools
+on some systems. Rename the compiled binary if needed, e.g.
+`mv ~/.local/bin/dict ~/.local/bin/sdict`.
 
 ## License
 

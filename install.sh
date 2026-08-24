@@ -1,7 +1,7 @@
 #!/bin/sh
 set -eu
 
-repo="Yangelic/macos-dict-cli"
+repo="Yangelic/swift-dict"
 source_url="https://raw.githubusercontent.com/$repo/main/dict.swift"
 dest="$HOME/.local/bin/dict"
 
