@@ -6,6 +6,10 @@
 
 A tiny Swift CLI that pipes macOS's built-in Dictionary straight to your terminal.
 
+### Why?
+
+I use a quick terminal so there is no need for additional gestures, alt-tabs, workspace swaps, etc. I stay focused on what I am doing without switching screens or managing windows.
+
 ## Requirements
 
 - macOS
